@@ -404,7 +404,7 @@ const vocabularyData = {
         { mongolian: "Урт", pronunciation: "urt", english: "Long", audio: "audio/Mots/lesson 19/Урт.mp3" },
         { mongolian: "Богино", pronunciation: "bogino", english: "Short", audio: "audio/Mots/lesson 19/Богино.mp3" },
         { mongolian: "Өргөн", pronunciation: "örgön", english: "Wide", audio: "audio/Mots/lesson 19/Өргөн.mp3" },
-        { mongolian: "Нарийн", pronunciation: "nariin", english: "Narrow", audio: "audio/Mots/lesson 19/Нарийн.mp3" },
+        { mongolian: "Нарийн", pronunciation: "nariin", english: "Narrow", audio: "audio/Mots/lesson 19/Нарийн.mp3" },
         { mongolian: "Том", pronunciation: "tom", english: "Big", audio: "audio/Mots/lesson 19/Том.mp3" },
         { mongolian: "Жижиг", pronunciation: "jijig", english: "Small", audio: "audio/Mots/lesson 19/Жижиг.mp3" },
         { mongolian: "Дундаж", pronunciation: "dundaj", english: "Average", audio: "audio/Mots/lesson 19/Дундаж.mp3" },
