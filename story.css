@@ -1,0 +1,155 @@
+.story-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.story-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#story-selector {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.display-options {
+    display: flex;
+    gap: 1rem;
+}
+
+.display-options button {
+    background: var(--white);
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.display-options button[aria-pressed="true"] {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+.story-content {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow-md);
+    margin-bottom: 2rem;
+}
+
+.story-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.paragraph-container {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #f8f9fa;
+}
+
+.mongolian-text {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.pronunciation {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.english-text {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.hidden {
+    display: none;
+}
+
+.story-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.story-navigation button {
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.story-navigation button:hover {
+    background: var(--primary-dark);
+}
+
+.vocabulary-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.vocabulary-section h2 {
+    text-align: center;
+    margin-bottom: rem;
+}
+
+.vocabulary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.vocabulary-item {
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: var(--shadow-sm);
+}
+
+.vocabulary-item .mongolian {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .story-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .display-options {
+        flex-direction: column;
+    }
+    
+    .story-content {
+        padding: 1rem;
+    }
+    
+    .mongolian-text {
+        font-size: 1.1rem;
+    }
+} 

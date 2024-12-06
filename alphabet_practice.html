@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practice Mongolian Cyrillic alphabet with flashcards">
+    <meta name="keywords" content="mongolian cyrillic practice, learn mongolian alphabet, mongolian letters">
+    <title>Practice Cyrillic - MongoLearn</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .cards-container {
+            max-width: 600px;
+            margin: 2rem auto;
+            min-height: 300px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .cyrillic {
+            font-size: 8rem;
+            color: #0277b6;
+            margin-bottom: 1rem;
+        }
+
+        .pronunciation, .example {
+            font-size: 1.2rem;
+            color: #666;
+            margin: 1rem 0;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .nav-btn {
+            background: #0277b6;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: #015d8e;
+        }
+
+        .nav-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .progress-container {
+            text-align: center;
+            margin-top: 1rem;
+            color: #666;
+        }
+
+        .keyboard-shortcuts {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .audio-btn {
+            background: #0277b6;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .audio-btn:hover {
+            background: #015d8e;
+        }
+
+        footer {
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 2rem;
+            border-top: 1px solid #eee;
+            background: #f8f9fa;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="index_updated.html" class="logo" aria-label="MongoLearn Home">MongoLearn</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul>
+                <li><a href="index_updated.html">Home</a></li>
+                <li><a href="vocabulary_themes.html">Learn Vocabulary</a></li>
+                <li><a href="cyrillic.html">Learn Cyrillic</a></li>
+                <li><a href="grammar_tips.html">Grammar Tips</a></li>
+                <li><a href="story.html">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="practice-heading">
+            <h1 id="practice-heading">Practice Mongolian Alphabet</h1>
+            <p>Click the cards to reveal pronunciation and examples</p>
+        </section>
+
+        <div class="cards-container">
+            <div class="card">
+                <!-- Card content will be inserted by JavaScript -->
+            </div>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn" id="prev-btn" onclick="previousCard()">Previous</button>
+            <button class="nav-btn" id="next-btn" onclick="nextCard()">Next</button>
+        </div>
+
+        <div class="progress-container">
+            <p class="progress-text">Card <span id="current-card">1</span> of <span id="total-cards">35</span></p>
+            <p class="keyboard-shortcuts">
+                Use ← → arrows to navigate • Space to flip card
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MongoLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="alphabet_practice.js"></script>
+</body>
+</html> 

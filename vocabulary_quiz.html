@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Quiz - MongoLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="vocabulary_quiz.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="index_updated.html" class="logo">MongoLearn</a>
+            <ul>
+                <li><a href="index_updated.html">Home</a></li>
+                <li><a href="vocabulary_themes.html" class="active">Learn Vocabulary</a></li>
+                <li><a href="quizzes.html">Quizzes</a></li>
+                <li><a href="story.html">Story</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="quiz-container">
+            <h1 id="quiz-heading">Quiz: <span id="theme-title"></span></h1>
+            <div id="quiz-progress">Question <span id="current-question">1</span> of <span id="total-questions">20</span></div>
+            
+            <div id="quiz-content">
+                <div class="question-container">
+                    <h2 class="mongolian-word"></h2>
+                    <p class="pronunciation"></p>
+                    <div class="answer-container">
+                        <input type="text" id="answer-input" placeholder="Type the English translation...">
+                        <button id="submit-answer">Submit</button>
+                    </div>
+                </div>
+                
+                <div id="feedback" class="hidden">
+                    <p class="feedback-text"></p>
+                    <button id="next-question">Next</button>
+                </div>
+            </div>
+
+            <div id="quiz-results" class="hidden">
+                <h2>Quiz Results</h2>
+                <p>Your score: <span id="score">0</span>/<span id="total-score">20</span></p>
+                <div id="incorrect-answers"></div>
+                <div class="quiz-actions">
+                    <button id="retry-incorrect">Retry Incorrect Answers</button>
+                    <button onclick="location.href='vocabulary_themes.html'">Back to Themes</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="vocabulary_data.js"></script>
+    <script src="vocabulary_quiz.js"></script>
+</body>
+</html> 

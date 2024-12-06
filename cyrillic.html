@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Mongolian Cyrillic alphabet with pronunciation and examples">
+    <meta name="keywords" content="mongolian cyrillic, learn mongolian alphabet, mongolian letters">
+    <title>Learn Mongolian Cyrillic - MongoLearn</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .alphabet-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .alphabet-section {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .letter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .letter-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .letter-card:hover {
+            transform: translateY(-2px);
+            background: #e9ecef;
+        }
+
+        .cyrillic {
+            font-size: 2rem;
+            color: #0277b6;
+            margin-bottom: 0.5rem;
+        }
+
+        .pronunciation {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        .example {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #2c3e50;
+        }
+
+        .audio-btn {
+            background: #0277b6;
+            color: white;
+            border: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+
+        .audio-btn:hover {
+            background: #015d8e;
+        }
+
+        .tip {
+            border-left: 4px solid #0277b6;
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: #2c3e50;
+        }
+
+        .page-title {
+            text-align: center;
+            padding: 0rem 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .page-title h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: #666;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .practice-section {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .practice-btn {
+            background: #0277b6;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: background-color 0.2s;
+        }
+
+        .practice-btn:hover {
+            background: #015d8e;
+        }
+
+        footer {
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 2rem;
+            border-top: 1px solid #eee;
+            background: #f8f9fa;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="MongoLearn Home">MongoLearn</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vocabulary_themes.html">Learn Vocabulary</a></li>
+                <li><a href="cyrillic.html" class="active" aria-current="page">Learn Cyrillic</a></li>
+                <li><a href="grammar_tips.html">Grammar Tips</a></li>
+                <li><a href="story.html">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-title">
+        <h1>Learn Mongolian Cyrillic Alphabet</h1>
+        <p class="subtitle">Master the Mongolian alphabet with clear examples and pronunciation guides</p>
+        <button class="practice-btn" onclick="location.href='alphabet_practice.html'" style="margin-top: 1.5rem;">
+            Practice with Flashcards →
+        </button>
+    </div>
+
+    <main class="alphabet-container">
+        <div class="alphabet-section">
+            <h2>Introduction to Mongolian Cyrillic</h2>
+            <p>The Mongolian Cyrillic alphabet consists of 35 letters, including 2 letters (Өө, Үү) unique to Mongolian. Understanding these letters is essential for reading and writing in modern Mongolian.</p>
+            <div class="tip">
+                💡 Mongolian Cyrillic is written from left to right, unlike traditional Mongolian script.
+            </div>
+        </div>
+
+        <div class="alphabet-section">
+            <h2>Vowels</h2>
+            <p>Mongolian has 7 basic vowels:</p>
+            <div class="letter-grid">
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0001.mp3')">
+                    <div class="cyrillic">Аа</div>
+                    <div class="pronunciation">like 'a' in "father"</div>
+                    <div class="example">ах (brother)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0002.mp3')">
+                    <div class="cyrillic">Ээ</div>
+                    <div class="pronunciation">like 'e' in "bed"</div>
+                    <div class="example">ээж (mother)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0003.mp3')">
+                    <div class="cyrillic">Ии</div>
+                    <div class="pronunciation">like 'ee' in "see"</div>
+                    <div class="example">ир (come)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0004.mp3')">
+                    <div class="cyrillic">Оо</div>
+                    <div class="pronunciation">like 'o' in "more"</div>
+                    <div class="example">ой (forest)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0005.mp3')">
+                    <div class="cyrillic">Уу</div>
+                    <div class="pronunciation">like 'oo' in "moon"</div>
+                    <div class="example">ус (water)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0006.mp3')">
+                    <div class="cyrillic">Өө</div>
+                    <div class="pronunciation">like 'u' in "burn"</div>
+                    <div class="example">өдөр (day)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0007.mp3')">
+                    <div class="cyrillic">Үү</div>
+                    <div class="pronunciation">like 'u' in "tune"</div>
+                    <div class="example">үг (word)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+            </div>
+            <div class="tip">
+                💡 Vowels are crucial for vowel harmony rules in Mongolian.
+            </div>
+        </div>
+
+        <div class="alphabet-section">
+            <h2>Consonants</h2>
+            <p>Common consonants with similar sounds to English:</p>
+            <div class="letter-grid">
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0008.mp3')">
+                    <div class="cyrillic">Бб</div>
+                    <div class="pronunciation">like 'b' in "bed"</div>
+                    <div class="example">бар (tiger)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0009.mp3')">
+                    <div class="cyrillic">Вв</div>
+                    <div class="pronunciation">like 'v' in "very"</div>
+                    <div class="example">вагон (wagon)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0010.mp3')">
+                    <div class="cyrillic">Гг</div>
+                    <div class="pronunciation">like 'g' in "go"</div>
+                    <div class="example">гар (hand)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0011.mp3')">
+                    <div class="cyrillic">Дд</div>
+                    <div class="pronunciation">like 'd' in "dog"</div>
+                    <div class="example">дэв (pillow)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0012.mp3')">
+                    <div class="cyrillic">Жж</div>
+                    <div class="pronunciation">like 'j' in "jam"</div>
+                    <div class="example">жил (year)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0013.mp3')">
+                    <div class="cyrillic">Зз</div>
+                    <div class="pronunciation">like 'z' in "zebra"</div>
+                    <div class="example">зам (road)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0014.mp3')">
+                    <div class="cyrillic">Йй</div>
+                    <div class="pronunciation">like 'y' in "yes"</div>
+                    <div class="example">йог (yoga)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0015.mp3')">
+                    <div class="cyrillic">Кк</div>
+                    <div class="pronunciation">like 'k' in "keep"</div>
+                    <div class="example">кино (movie)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0016.mp3')">
+                    <div class="cyrillic">Лл</div>
+                    <div class="pronunciation">like 'l' in "love"</div>
+                    <div class="example">лам (lama)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0017.mp3')">
+                    <div class="cyrillic">Мм</div>
+                    <div class="pronunciation">like 'm' in "mom"</div>
+                    <div class="example">мал (livestock)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0018.mp3')">
+                    <div class="cyrillic">Нн</div>
+                    <div class="pronunciation">like 'n' in "no"</div>
+                    <div class="example">нар (sun)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0019.mp3')">
+                    <div class="cyrillic">Пп</div>
+                    <div class="pronunciation">like 'p' in "pen"</div>
+                    <div class="example">пив (beer)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0020.mp3')">
+                    <div class="cyrillic">Рр</div>
+                    <div class="pronunciation">rolled 'r'</div>
+                    <div class="example">рад (happy)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0021.mp3')">
+                    <div class="cyrillic">Сс</div>
+                    <div class="pronunciation">like 's' in "sun"</div>
+                    <div class="example">сар (moon)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0022.mp3')">
+                    <div class="cyrillic">Тт</div>
+                    <div class="pronunciation">like 't' in "top"</div>
+                    <div class="example">тал (steppe)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0023.mp3')">
+                    <div class="cyrillic">Фф</div>
+                    <div class="pronunciation">like 'f' in "fish"</div>
+                    <div class="example">фото (photo)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0024.mp3')">
+                    <div class="cyrillic">Хх</div>
+                    <div class="pronunciation">like 'h' in "hot"</div>
+                    <div class="example">хот (city)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0025.mp3')">
+                    <div class="cyrillic">Щщ</div>
+                    <div class="pronunciation">like 'shch' in "fresh cheese"</div>
+                    <div class="example">щётка (brush)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0026.mp3')">
+                    <div class="cyrillic">Ыы</div>
+                    <div class="pronunciation">like 'i' in "bit" but deeper</div>
+                    <div class="example">ын (of)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="alphabet-section">
+            <h2>Special Letters</h2>
+            <p>Letters unique to Mongolian or with special pronunciation:</p>
+            <div class="letter-grid">
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0027.mp3')">
+                    <div class="cyrillic">Цц</div>
+                    <div class="pronunciation">like 'ts' in "cats"</div>
+                    <div class="example">цай (tea)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0028.mp3')">
+                    <div class="cyrillic">Чч</div>
+                    <div class="pronunciation">like 'ch' in "chair"</div>
+                    <div class="example">чоно (wolf)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0029.mp3')">
+                    <div class="cyrillic">Шш</div>
+                    <div class="pronunciation">like 'sh' in "ship"</div>
+                    <div class="example">шар (yellow)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card">
+                    <div class="cyrillic">Ъъ</div>
+                    <div class="pronunciation">hard sign (separates sounds)</div>
+                    <div class="example">съезд (congress)</div>
+                </div>
+                <div class="letter-card">
+                    <div class="cyrillic">Ьь</div>
+                    <div class="pronunciation">soft sign (softens consonants)</div>
+                    <div class="example">нь (of)</div>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0030.mp3')">
+                    <div class="cyrillic">Ее</div>
+                    <div class="pronunciation">like 'ye' in "yes"</div>
+                    <div class="example">ерөө (blessing)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0031.mp3')">
+                    <div class="cyrillic">Ёё</div>
+                    <div class="pronunciation">like 'yo' in "yolk"</div>
+                    <div class="example">ёлка (Christmas tree)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0032.mp3')">
+                    <div class="cyrillic">Юю</div>
+                    <div class="pronunciation">like 'yu' in "youth"</div>
+                    <div class="example">юм (thing)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+                <div class="letter-card" onclick="playAudio('audio/alphabet/0033.mp3')">
+                    <div class="cyrillic">Яя</div>
+                    <div class="pronunciation">like 'ya' in "yard"</div>
+                    <div class="example">ямар (what kind)</div>
+                    <button class="audio-btn">🔊 Listen</button>
+                </div>
+            </div>
+            <div class="tip">
+                💡 Some of these letters represent combinations of sounds and are unique to the Mongolian Cyrillic alphabet.
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MongoLearn. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function playAudio(audioPath) {
+            const audio = new Audio(audioPath);
+            const button = event.currentTarget.querySelector('.audio-btn');
+            const originalText = button.textContent;
+            button.textContent = '🔄 Loading...';
+            
+            audio.addEventListener('canplaythrough', () => {
+                button.textContent = originalText;
+            });
+            
+            audio.addEventListener('error', () => {
+                console.error('Audio failed to load:', audioPath);
+                button.textContent = originalText;
+                alert('Sorry, this audio is currently unavailable');
+            });
+            
+            audio.play().catch(error => {
+                console.error('Audio playback failed:', error);
+                button.textContent = originalText;
+            });
+        }
+    </script>
+</body>
+</html> 

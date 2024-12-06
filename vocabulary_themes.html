@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Choose from various Mongolian vocabulary themes to learn">
+    <meta name="keywords" content="mongolian vocabulary themes, learn mongolian, mongolian language topics">
+    <title>Vocabulary Themes - MongoLearn</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="vocabulary_themes.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="MongoLearn Home">MongoLearn</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vocabulary_themes.html" class="active" aria-current="page">Learn Vocabulary</a></li>
+                <li><a href="cyrillic.html">Learn Cyrillic</a></li>
+                <li><a href="grammar_tips.html">Grammar Tips</a></li>
+                <li><a href="story.html">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="themes-heading">
+            <h1 id="themes-heading">Choose a Theme</h1>
+            <p>Select a vocabulary theme to start learning with flashcards</p>
+        </section>
+
+        <section class="themes-grid">
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=greetings'">
+                <div class="theme-icon">🗣️</div>
+                <h2>Greetings and Basics</h2>
+                <p>Essential for daily conversations</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=greetings'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=numbers'">
+                <div class="theme-icon">🔢</div>
+                <h2>Numbers and Time</h2>
+                <p>Numbers and time expressions</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=numbers'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=family'">
+                <div class="theme-icon">👨‍👩‍👧‍👦</div>
+                <h2>Family</h2>
+                <p>Family members and relationships</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=family'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=food'">
+                <div class="theme-icon">🍜</div>
+                <h2>Food and Drink</h2>
+                <p>Common food and beverage terms</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=food'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=colors'">
+                <div class="theme-icon">🎨</div>
+                <h2>Colors</h2>
+                <p>Colors and related terms</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=colors'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=nature'">
+                <div class="theme-icon">🌲</div>
+                <h2>Nature</h2>
+                <p>Natural world and environment</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=nature'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=transport'">
+                <div class="theme-icon">🚗</div>
+                <h2>Transportation</h2>
+                <p>Vehicles and travel terms</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=transport'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=shopping'">
+                <div class="theme-icon">🛍️</div>
+                <h2>Shopping</h2>
+                <p>Shopping and commerce</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=shopping'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=weather'">
+                <div class="theme-icon">🌤️</div>
+                <h2>Weather</h2>
+                <p>Weather conditions and terms</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=weather'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=activities'">
+                <div class="theme-icon">📅</div>
+                <h2>Daily Activities</h2>
+                <p>Common actions and routines</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=activities'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=body'">
+                <div class="theme-icon">👤</div>
+                <h2>Body Parts</h2>
+                <p>Human body vocabulary</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=body'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=emotions'">
+                <div class="theme-icon">😊</div>
+                <h2>Emotions</h2>
+                <p>Feelings and emotional states</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=emotions'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=occupations'">
+                <div class="theme-icon">👨‍⚕️</div>
+                <h2>Occupations</h2>
+                <p>Jobs and professions</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=occupations'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=clothing'">
+                <div class="theme-icon">👕</div>
+                <h2>Clothing</h2>
+                <p>Clothing and accessories</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=clothing'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=animals'">
+                <div class="theme-icon">🐾</div>
+                <h2>Animals</h2>
+                <p>Animals and creatures</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=animals'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=technology'">
+                <div class="theme-icon">💻</div>
+                <h2>Technology</h2>
+                <p>Modern technology terms</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=technology'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=hobbies'">
+                <div class="theme-icon">🎨</div>
+                <h2>Hobbies</h2>
+                <p>Leisure activities and interests</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=hobbies'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=travel'">
+                <div class="theme-icon">✈️</div>
+                <h2>Travel</h2>
+                <p>Travel and tourism vocabulary</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=travel'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=shapes'">
+                <div class="theme-icon">📐</div>
+                <h2>Shapes and Sizes</h2>
+                <p>Geometric shapes and dimensions</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=shapes'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+
+            <article class="theme-card" onclick="location.href='vocabulary_cards.html?theme=verbs'">
+                <div class="theme-icon">🏃</div>
+                <h2>Verbs</h2>
+                <p>Common action words</p>
+                <div class="theme-actions">
+                    <span class="word-count">20 words</span>
+                    <button class="quiz-btn" onclick="event.stopPropagation(); location.href='vocabulary_quiz.html?theme=verbs'">
+                        Take Quiz
+                    </button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MongoLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

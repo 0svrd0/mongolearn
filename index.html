@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn Mongolian language through interactive lessons, vocabulary, quizzes and stories">
+    <meta name="keywords" content="learn mongolian, mongolian language, mongolian vocabulary, mongolian lessons">
+    <title>MongoLearn - Learn Mongolian Language</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="#" class="logo" aria-label="MongoLearn Home">MongoLearn</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul>
+                <li><a href="index_updated.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="vocabulary_themes.html">Learn Vocabulary</a></li>
+                <li><a href="cyrillic.html">Learn Cyrillic</a></li>
+                <li><a href="grammar_tips.html">Grammar Tips</a></li>
+                <li><a href="story.html">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-heading">
+            <h1 id="hero-heading">Start learning Mongolian</h1>
+            <p>Master essential vocabulary and grammar through interactive lessons</p>
+        </section>
+
+        <style>
+            .card-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);  /* Two columns */
+                gap: 2rem;
+                padding: 0 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            @media (max-width: 768px) {
+                .card-container {
+                    grid-template-columns: 1fr;  /* Single column on mobile */
+                }
+            }
+        </style>
+
+        <section class="card-container" aria-label="Learning options">
+            <article class="card">
+                <h2>Learn vocabulary</h2>
+                <p>Master your vocabulary through flashcards and quizzes</p>
+                <button onclick="location.href='vocabulary_themes.html'" aria-label="Start learning vocabulary">Start Learning</button>
+            </article>
+
+            <article class="card">
+                <h2>Learn Cyrillic</h2>
+                <p>Master the Mongolian alphabet with pronunciation guides</p>
+                <button onclick="location.href='cyrillic.html'" aria-label="Start learning Cyrillic">Learn Alphabet</button>
+            </article>
+
+            <article class="card">
+                <h2>Grammar Tips</h2>
+                <p>Learn essential Mongolian grammar rules with clear examples</p>
+                <button onclick="location.href='grammar_tips.html'" aria-label="Start learning grammar">Learn Grammar</button>
+            </article>
+
+            <article class="card">
+                <h2>Stories</h2>
+                <p>Read simple stories with audio and english translation</p>
+                <button onclick="location.href='story.html'" aria-label="Start reading stories">Read Stories</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MongoLearn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
