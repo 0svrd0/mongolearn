@@ -398,7 +398,7 @@ const vocabularyData = {
         { mongolian: "Картаар төлөх", pronunciation: "kartaar tölökh", english: "Pay by card", audio: "audio/Mots/lesson 18/Картаар төлөх.mp3" }
     ],
     shapes: [
-        { mongolian: "Тойрог", pronunciation: "toirog", english: "Circle", audio: "audio/Mots/lesson 19/Тойрог.mp3" },
+        { mongolian: "Тойрог", pronunciation: "toirog", english: "Circle", audio: "audio/Mots/lesson 19/Тойрог.mp3" },
         { mongolian: "Дөрвөлжин", pronunciation: "dörvöljin", english: "Square", audio: "audio/Mots/lesson 19/Дөрвөлжин.mp3" },
         { mongolian: "Гурвалжин", pronunciation: "gurwaljin", english: "Triangle", audio: "audio/Mots/lesson 19/Гурвалжин.mp3" },
         { mongolian: "Урт", pronunciation: "urt", english: "Long", audio: "audio/Mots/lesson 19/Урт.mp3" },
