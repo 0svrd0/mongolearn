@@ -165,7 +165,7 @@ const vocabularyData = {
         { mongolian: "Карт", pronunciation: "Kart", english: "Card", audio: "audio/Mots/lesson8/Карт.mp3" },
         { mongolian: "Бараа", pronunciation: "Baraa", english: "Goods", audio: "audio/Mots/lesson8/Бараа.mp3" },
         { mongolian: "Хэрэгтэй", pronunciation: "Kheregtei", english: "Necessary", audio: "audio/Mots/lesson8/Хэрэгтэй.mp3" },
-        { mongolian: "Хэрэггүй", pronunciation: "Khereggüi", english: "Not necessary", audio: "audio/Mots/lesson8/Хэрэггүй.mp3" },
+        { mongolian: "Хэрэггүй", pronunciation: "Khereggüi", english: "Not necessary", audio: "audio/Mots/lesson8/Хэрэггүn.mp3" },
         { mongolian: "Дүн", pronunciation: "Dün", english: "Total", audio: "audio/Mots/lesson8/Дүн.mp3" },
         { mongolian: "Хямдрал", pronunciation: "Khyamral", english: "Sale", audio: "audio/Mots/lesson8/Хямдрал.mp3" },
         { mongolian: "Тунгалаг", pronunciation: "Tungalag", english: "Transparent", audio: "audio/Mots/lesson8/Тунгалаг.mp3" },
