@@ -409,7 +409,7 @@ const vocabularyData = {
         { mongolian: "Жижиг", pronunciation: "jijig", english: "Small", audio: "audio/Mots/lesson19/small.mp3" },
         { mongolian: "Дундаж", pronunciation: "dundaj", english: "Average", audio: "audio/Mots/lesson19/average.mp3" },
         { mongolian: "Дугуй", pronunciation: "dugui", english: "Round", audio: "audio/Mots/lesson19/round.mp3" },
-        { mongolian: "Хавтгай", pronunciation: "khawtgai", english: "Flat", audio: "audio/Mots/lesson19/flag.mp3" },
+        { mongolian: "Хавтгай", pronunciation: "khawtgai", english: "Flat", audio: "audio/Mots/lesson19/flat.mp3" },
         { mongolian: "Гүдгэр", pronunciation: "güdger", english: "Convex", audio: "audio/Mots/lesson19/convex.mp3" },
         { mongolian: "Хөндлөн", pronunciation: "khöndlön", english: "Horizontal", audio: "audio/Mots/lesson19/horizontal.mp3" },
         { mongolian: "Босоо", pronunciation: "bosoo", english: "Vertical", audio: "audio/Mots/lesson19/vertical.mp3" },
