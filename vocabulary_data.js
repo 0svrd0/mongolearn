@@ -122,7 +122,7 @@ const vocabularyData = {
         { mongolian: "Нуур", pronunciation: "Nuur", english: "Lake", audio: "audio/Mots/lesson6/Нуур.mp3" },
         { mongolian: "Уул", pronunciation: "Uul", english: "Mountain", audio: "audio/Mots/lesson6/Уул.mp3" },
         { mongolian: "Тал", pronunciation: "Tal", english: "Plain", audio: "audio/Mots/lesson6/Тал.mp3" },
-        { mongolian: "Ой", pronunciation: "Oi", english: "Forest", audio: "audio/Mots/lesson6/Ой.mp3" },
+        { mongolian: "Ой", pronunciation: "Oi", english: "Forest", audio: "audio/Mots/lesson6/Оn.mp3" },
         { mongolian: "Элс", pronunciation: "Els", english: "Sand", audio: "audio/Mots/lesson6/Элс.mp3" },
         { mongolian: "Хад", pronunciation: "Khad", english: "Rock", audio: "audio/Mots/lesson6/Хад.mp3" },
         { mongolian: "Цэцэг", pronunciation: "Tsetseg", english: "Flower", audio: "audio/Mots/lesson6/Цэцэг.mp3" },
