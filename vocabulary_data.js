@@ -135,7 +135,7 @@ const vocabularyData = {
 
     transport: [
         { mongolian: "Машин", pronunciation: "Mashin", english: "Car", audio: "audio/Mots/lesson7/Машин.mp3" },
-        { mongolian: "Унадаг дугуй", pronunciation: "Unadag dugui", english: "Bicycle", audio: "audio/Mots/lesson7/Унадаг дугуй.mp3" },
+        { mongolian: "Унадаг дугуй", pronunciation: "Unadag dugui", english: "Bicycle", audio: "audio/Mots/lesson7/bicycle.mp3" },
         { mongolian: "Автобус", pronunciation: "Avtobus", english: "Bus", audio: "audio/Mots/lesson7/Автобус.mp3" },
         { mongolian: "Галт тэрэг", pronunciation: "Galt tereg", english: "Train", audio: "audio/Mots/lesson7/Галт тэрэг.mp3" },
         { mongolian: "Нисэх онгоц", pronunciation: "Nisekh ongots", english: "Airplane", audio: "audio/Mots/lesson7/Нисэх онгоц.mp3" },
