@@ -347,7 +347,7 @@ const vocabularyData = {
         { mongolian: "Гэрэл зургийн аппарат", pronunciation: "gerel zuragiin apparat", english: "Photo camera", audio: "audio/Mots/lesson16/photocamera.mp3" },
         { mongolian: "Хард диск", pronunciation: "khard disk", english: "Hard drive", audio: "audio/Mots/lesson16/harddrive.mp3" },
         { mongolian: "Гар", pronunciation: "gar", english: "Keyboard", audio: "audio/Mots/lesson16/keyboard.mp3" },
-        { mongolian: "Ухаалаг цаг", pronunciation: "ukhaalag tsag", english: "Smartwatch", audio: "audio/Mots/lesson16/smartwatch.mp3" },
+        { mongolian: "Ухаалаг цаг", pronunciation: "ukhaalag tsag", english: "Smartwatch", audio: "audio/Mots/lesson16/smartwash.mp3" },
         { mongolian: "Хэвлэгч", pronunciation: "khevlegch", english: "Scanner", audio: "audio/Mots/lesson16/scanner.mp3" },
         { mongolian: "Таблет", pronunciation: "tablet", english: "Tablet", audio: "audio/Mots/lesson16/tablet.mp3" },
         { mongolian: "Ухаалаг утас", pronunciation: "ukhaalag utas", english: "Smartphone", audio: "audio/Mots/lesson16/smartphone.mp3" },
