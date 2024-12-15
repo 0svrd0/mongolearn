@@ -385,7 +385,7 @@ const vocabularyData = {
         { mongolian: "Хоолны газар", pronunciation: "khoolni gazar", english: "Restaurant", audio: "audio/Mots/lesson18/restaurant.mp3" },
         { mongolian: "Газрын зураг", pronunciation: "gazarin zurag", english: "Map", audio: "audio/Mots/lesson18/map.mp3" },
         { mongolian: "Аялал", pronunciation: "ayalal", english: "Travel", audio: "audio/Mots/lesson18/travel.mp3" },
-        { mongolian: "Хил", pronunciation: "khil", english: "Border", audio: "audio/Mots/lesson18/bordel.mp3" },
+        { mongolian: "Хил", pronunciation: "khil", english: "Border", audio: "audio/Mots/lesson18/border.mp3" },
         { mongolian: "Виз", pronunciation: "viz", english: "Visa", audio: "audio/Mots/lesson18/visa.mp3" },
         { mongolian: "Буудал", pronunciation: "buudal", english: "Stop", audio: "audio/Mots/lesson18/stop.mp3" },
         { mongolian: "Хөтөч", pronunciation: "khötöch", english: "Guide", audio: "audio/Mots/lesson18/guide.mp3" },
