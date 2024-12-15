@@ -95,7 +95,7 @@ const vocabularyData = {
         { mongolian: "Хар", pronunciation: "Khar", english: "Black", audio: "audio/Mots/lesson5/Black.mp3" },
         { mongolian: "Цагаан", pronunciation: "Tsagaan", english: "White", audio: "audio/Mots/lesson5/White.mp3" },
         { mongolian: "Хүрэн", pronunciation: "Khüren", english: "Brown", audio: "audio/Mots/lesson5/Brown.mp3" },
-        { mongolian: "Саарал", pronunciation: "Saaral", english: "Gray", audio: "audio/Mots/lesson 5/Gray.mp3" },
+        { mongolian: "Саарал", pronunciation: "Saaral", english: "Gray", audio: "audio/Mots/lesson5/Gray.mp3" },
         { mongolian: "Ягаан", pronunciation: "Yagaan", english: "Pink", audio: "audio/Mots/lesson5/Pink.mp3" },
         { mongolian: "Нил ягаан", pronunciation: "Nil yagaan", english: "Purple", audio: "audio/Mots/lesson5/Purple.mp3" },
         { mongolian: "Улбар шар", pronunciation: "Ulbar shar", english: "Orange", audio: "audio/Mots/lesson5/Orange.mp3" },
