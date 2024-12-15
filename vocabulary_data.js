@@ -85,7 +85,7 @@ const vocabularyData = {
         { mongolian: "Жигнэмэг", pronunciation: "Jignemeg", english: "Biscuit", audio: "audio/Mots/lesson4/Biscuit.mp3" },
         { mongolian: "Өндөг", pronunciation: "Öndög", english: "Egg", audio: "audio/Mots/lesson4/Egg.mp3" },
         { mongolian: "Шөл", pronunciation: "Shöl", english: "Soup", audio: "audio/Mots/lesson4/Soup.mp3" },
-        { mongolian: "Халуун", pronunciation: "Khaluun", english: "Hot", audio: "audio/Mots/lesson 4/Hot.mp3" }
+        { mongolian: "Халуун", pronunciation: "Khaluun", english: "Hot", audio: "audio/Mots/lesson4/Hot.mp3" }
     ],
     colors: [
         { mongolian: "Улаан", pronunciation: "Ulaan", english: "Red", audio: "audio/Mots/lesson 5/Red.mp3" },
