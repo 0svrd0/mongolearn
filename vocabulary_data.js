@@ -157,7 +157,7 @@ const vocabularyData = {
     ],
     shopping: [
         { mongolian: "Дэлгүүр", pronunciation: "Delgüür", english: "Shop", audio: "audio/Mots/lesson8/Дэлгүүр.mp3" },
-        { mongolian: "Үнэтэй", pronunciation: "Üntei", english: "Expensive", audio: "audio/Mots/lesson8/Үнэтэй.mp3" },
+        { mongolian: "Үнэтэй", pronunciation: "Üntei", english: "Expensive", audio: "audio/Mots/lesson8/Үнэтэn.mp3" },
         { mongolian: "Хямд", pronunciation: "Khyamd", english: "Cheap", audio: "audio/Mots/lesson8/Хямд.mp3" },
         { mongolian: "Мөнгө", pronunciation: "Möngö", english: "Money", audio: "audio/Mots/lesson8/Мөнгө.mp3" },
         { mongolian: "Төлбөр", pronunciation: "Tölbör", english: "Payment", audio: "audio/Mots/lesson8/Төлбөр.mp3" },
