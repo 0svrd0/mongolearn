@@ -1,6 +1,6 @@
 const alphabetData = [
     // Vowels
-    { letter: 'Аа', pronunciation: "'", example: 'ах (brother)', audio: 'audio/alphabet/0001.mp3' },
+    { letter: 'Аа', example: 'ах (brother)', audio: 'audio/alphabet/0001.mp3' },
     { letter: 'Ээ', pronunciation: "like 'e' in 'bed'", example: 'ээж (mother)', audio: 'audio/alphabet/0002.mp3' },
     { letter: 'Ии', pronunciation: "like 'ee' in 'see'", example: 'ир (come)', audio: 'audio/alphabet/0003.mp3' },
     { letter: 'Оо', pronunciation: "like 'o' in 'more'", example: 'ой (forest)', audio: 'audio/alphabet/0004.mp3' },
